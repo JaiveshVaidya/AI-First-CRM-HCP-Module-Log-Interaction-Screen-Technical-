@@ -59,7 +59,7 @@ The database contains five primary tables:
 ### Step 1: Set Up the Backend
 1. Create an environment configuration file named `.env` inside the `backend/` directory:
    ```env
-   GROQ_API_KEY=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
+   GROQ_API_KEY=GROQ_API_KEY_USERNAME_ACCOUNT
    DATABASE_URL=sqlite:///./hcp_crm.db
    ```
    *(Note: This uses the Groq key you provided. If you ever need to run in local fallback mode, you can simply clear the `GROQ_API_KEY` value.)*
